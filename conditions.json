@@ -1,0 +1,72 @@
+[
+  {
+    "type": "condition",
+    "name": "easymobs",
+    "values": [
+      {
+        "factor": 1,
+        "value": "techguns:skeletonsoldier"
+      },
+      {
+        "factor": 1,
+        "value": "techguns:alienbug"
+      },
+	  {
+        "factor": 1,
+        "value": "techguns:bandit"
+      },
+	  {
+        "factor": 1,
+        "value": "techguns:armysoldier"
+      }
+    ]
+  },
+  {
+    "type": "condition",
+    "name": "hardmobs",
+    "values": [
+	  {
+        "factor": 1,
+        "value": "techguns:psychosteve"
+      },
+	  {
+        "factor": 1,
+        "value": "techguns:stormtrooper"
+      },
+	  {
+        "factor": 1,
+        "value": "techguns:outcast"
+      }
+    ]
+  },
+  {
+    "type": "condition",
+    "name": "chestloot",
+    "values": [
+      {
+        "factor": 8,
+        "value": "lostcities:chests/lostcitychest",
+        "range": "4,100"
+      },
+      {
+        "factor": 8,
+        "value": "lostcities:chests/lostcitychest",
+        "range": "-100,-3"
+      },
+      {
+        "factor": 20,
+        "value": "lostcities:chests/raildungeonchest",
+        "inpart": "rail_dungeon1"
+      },
+      {
+        "factor": 20,
+        "value": "lostcities:chests/raildungeonchest",
+        "inpart": "rail_dungeon2"
+      },
+      {
+        "factor": 1,
+        "value": "minecraft:chests/buried_treasure"
+      }
+    ]
+  }
+]

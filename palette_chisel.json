@@ -1,0 +1,369 @@
+[
+  {
+    "type": "style",
+    "name": "outside_chisel",
+    "randompalettes": [
+      [
+        {
+          "factor": 1.0,
+          "palette": "common"
+        }
+      ],
+      [
+        {
+          "factor": 1.0,
+          "palette": "default_chisel"
+        }
+      ],
+      [
+        {
+          "factor": 1.0,
+          "palette": "bricks_chisel_standard"
+        }
+      ],
+      [
+        {
+          "factor": 1.0,
+          "palette": "glass_full"
+        }
+      ],
+      [
+        {
+          "factor": 1.0,
+          "palette": "glass_side_variant_glass"
+        }
+      ]
+    ]
+  },
+  {
+    "type": "style",
+    "name": "standard_chisel",
+    "randompalettes": [
+      [
+        {
+          "factor": 1.0,
+          "palette": "common"
+        }
+      ],
+      [
+        {
+          "factor": 1.0,
+          "palette": "default_chisel"
+        }
+      ],
+      [
+        {
+          "factor": 1.0,
+          "palette": "bricks_chisel_standard"
+        },
+        {
+          "factor": 1.0,
+          "palette": "bricks_chisel_cyan"
+        },
+        {
+          "factor": 1.0,
+          "palette": "bricks_chisel_gray"
+        },
+        {
+          "factor": 1.0,
+          "palette": "bricks_chisel_silver"
+        }
+      ],
+      [
+        {
+          "factor": 1.0,
+          "palette": "glass_full"
+        },
+        {
+          "factor": 1.0,
+          "palette": "glass_pane"
+        },
+        {
+          "factor": 1.0,
+          "palette": "glass_full_white"
+        },
+        {
+          "factor": 1.0,
+          "palette": "glass_pane_white"
+        },
+        {
+          "factor": 1.0,
+          "palette": "glass_full_blue"
+        },
+        {
+          "factor": 1.0,
+          "palette": "glass_pane_blue"
+        },
+        {
+          "factor": 1.0,
+          "palette": "glass_full_light_blue"
+        },
+        {
+          "factor": 1.0,
+          "palette": "glass_pane_light_blue"
+        },
+        {
+          "factor": 1.0,
+          "palette": "glass_full_gray"
+        },
+        {
+          "factor": 1.0,
+          "palette": "glass_pane_gray"
+        }
+      ],
+      [
+        {
+          "factor": 1.0,
+          "palette": "glass_side_variant_glass"
+        },
+        {
+          "factor": 1.0,
+          "palette": "glass_side_variant_glass"
+        },
+        {
+          "factor": 1.0,
+          "palette": "glass_side_variant_bricks"
+        },
+        {
+          "factor": 1.0,
+          "palette": "glass_side_variant_quartz"
+        }
+      ]
+    ]
+  },
+  {
+    "type": "palette",
+    "name": "bricks_chisel_standard",
+    "palette": [
+      {
+        "char": "X",
+        "block": "chisel:factory@1",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "$",
+        "block": "chisel:technicalnew@4",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "#",
+        "blocks": [
+          {
+            "random": 1,
+            "block": "chisel:technical@14"
+          },
+          {
+            "random": 2000,
+            "block": "chisel:factory@1"
+          }
+        ],
+        "damaged": "minecraft:iron_bars"
+      }
+    ]
+  },
+  {
+    "type": "palette",
+    "name": "bricks_chisel_gray",
+    "palette": [
+      {
+        "char": "X",
+        "block": "xtones:tank@6",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "$",
+        "block": "chisel:technical@14",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "#",
+        "blocks": [
+          {
+            "random": 2000,
+            "block": "xtones:tank@6"
+          }
+        ],
+        "damaged": "minecraft:iron_bars"
+      }
+    ]
+  },
+  {
+    "type": "palette",
+    "name": "bricks_chisel_cyan",
+    "palette": [
+      {
+        "char": "X",
+        "block": "chisel:technicalnew@2",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "$",
+        "block": "chisel:technicalnew@4",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "#",
+        "blocks": [
+          {
+            "random": 1,
+            "block": "chisel:technical@14"
+          },
+          {
+            "random": 2000,
+            "block": "chisel:technicalnew@2"
+          }
+        ],
+        "damaged": "minecraft:iron_bars"
+      }
+    ]
+  },
+  {
+    "type": "palette",
+    "name": "bricks_chisel_silver",
+    "palette": [
+      {
+        "char": "X",
+        "block": "chisel:factory@13",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "$",
+        "block": "chisel:technical@14",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "#",
+        "blocks": [
+          {
+            "random": 2000,
+            "block": "chisel:factory@13"
+          }
+        ],
+        "damaged": "minecraft:iron_bars"
+      }
+    ]
+  },
+  {
+    "type": "palette",
+    "name": "default_chisel",
+    "palette": [
+      {
+        "char": "Q",
+        "block": "sonarcore:reinforcedstonebrick",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "R",
+        "block": "chisel:technicalnew@2",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "u",
+        "block": "securitycraft:reinforced_stone_brick",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "S",
+        "block": "chisel:technicalnew@2",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "b",
+        "block": "chisel:factory@4"
+      },
+      {
+        "char": "B",
+        "block": "sonarcore:reinforcedstonebrick",
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "v",
+        "blocks": [
+          {
+            "random": 10,
+            "block": "sonarcore:reinforcedstonebrick"
+          },
+          {
+            "random": 9,
+            "block": "sonarcore:reinforcedstonebrick"
+          },
+          {
+            "random": 2000,
+            "block": "sonarcore:reinforcedstonebrick"
+          }
+        ],
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "y",
+        "blocks": [
+          {
+            "random": 10,
+            "block": "sonarcore:reinforcedstonebrick"
+          },
+          {
+            "random": 9,
+            "block": "sonarcore:reinforcedstonebrick"
+          },
+          {
+            "random": 2000,
+            "block": "sonarcore:reinforcedstonebrick"
+          }
+        ],
+        "damaged": "minecraft:iron_bars"
+      },
+      {
+        "char": "x",
+        "block": "sonarcore:reinforcedstonebrick"
+      },
+      {
+        "char": "_",
+        "block": "securitycraft:reinforced_stone_slabs@3"
+      },
+      {
+        "char": "=",
+        "block": "securitycraft:reinforced_stone_slabs@3"
+      },
+      {
+        "char": "w",
+        "block": "securitycraft:reinforced_walls"
+      },
+      {
+        "char": ":",
+        "block": "minecraft:iron_bars"
+      },
+      {
+        "char": "A",
+        "block": "securitycraft:reinforced_stairs_stone_brick@1"
+      },
+      {
+        "char": "t",
+        "block": "securitycraft:reinforced_stairs_stone_brick@0"
+      },
+      {
+        "char": "z",
+        "block": "securitycraft:reinforced_stairs_stone_brick@3"
+      },
+      {
+        "char": "c",
+        "block": "securitycraft:reinforced_stairs_stone_brick@2"
+      },
+      {
+        "char": "d",
+        "block": "securitycraft:reinforced_stairs_stone_brick@7"
+      },
+      {
+        "char": "(",
+        "block": "sonarcore:reinforcedstonebrickstairs@3"
+      },
+      {
+        "char": ")",
+        "block": "sonarcore:reinforcedstonebrickstairs@2"
+      },
+      {
+        "char": "/",
+        "block": "securitycraft:reinforced_stairs_stone_brick@1"
+      }
+    ]
+  }
+]
